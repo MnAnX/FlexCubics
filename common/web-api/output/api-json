@@ -1,0 +1,24 @@
+---------------------
+Method: getNextFrame
+Request:
+{"ID":1473735651440,"method":"getNextFrame","request":{"ID":2000,"action":2}}
+Response:
+{"ID":1473735651440,"method":"getNextFrame","isSuccess":true,"response":{"ID":3000,"action":0}}
+---------------------
+Method: getUserID
+Request:
+{"ID":1473735651490,"method":"getUserID","request":{"email":"nan.xiao@advicecoach.com","firstName":"Nan","lastName":"Xiao"}}
+Response:
+{"ID":1473735651490,"method":"getUserID","isSuccess":true,"response":1000}
+---------------------
+Method: getUserBooks
+Request:
+{"ID":1473735651490,"method":"getUserBooks","request":1000}
+Response:
+{"ID":1473735651490,"method":"getUserBooks","isSuccess":true,"response":[{"ID":1000,"title":"Magic of Tidying Up"},{"ID":2000,"title":"Rising Strong"},{"ID":3000,"title":"Think and Grow Rich"}]}
+---------------------
+Method: getPlans
+Request:
+{"ID":1473735651524,"method":"getPlans","request":{"userID":1000,"userID":2000}}
+Response:
+{"ID":1473735651524,"method":"getPlans","isSuccess":true,"response":[{"planID":2000,"status":"Active"},{"planID":12345,"status":"Inactive"}]}

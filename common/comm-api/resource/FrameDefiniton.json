@@ -1,0 +1,40 @@
+{
+  "frames": {
+
+    "login": {
+      "id": 1000,
+      "actions": {
+        "login": 1
+      }
+    },
+
+    "book-shelf": {
+      "id": 2000,
+      "actions": {
+        "add-book": 1,
+        "click-book": 2
+      }
+    },
+
+    "my-plan": {
+      "id": 3000,
+      "actions": {
+        "click-category": 1
+      }
+    },
+
+    "category-view": {
+      "id": 4000,
+      "actions": {
+        "edit-schedule": 1
+      }
+    },
+
+    "edit-schedule": {
+      "id": 5000,
+      "actions": {
+        "submit": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compileOnly "org.projectlombok:lombok:1.16.10"
+
+    compile 'com.advicecoach.common:data-model:1.0'
+
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
+    compile group: 'com.google.guava', name: 'guava', version: '19.0'
+    compile 'com.google.api-client:google-api-client:1.22.0'
+}
