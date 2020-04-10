@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "auth0-js": "^8.10.1",
+    "auth0-js": "^9.13.2",
     "autoprefixer": "7.1.2",
     "aws-sdk": "^2.122.0",
     "babel-core": "6.25.0",
