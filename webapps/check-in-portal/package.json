@@ -31,7 +31,7 @@
     "html2canvas": "^1.0.0-alpha.10",
     "html2canvas-render-offscreen": "0.0.3",
     "localforage": "^1.5.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "moment": "^2.22.0",
     "object-assign": "4.1.1",
     "offline-plugin": "^4.9.0",
