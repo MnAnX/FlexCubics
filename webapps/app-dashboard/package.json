@@ -5,7 +5,7 @@
   "dependencies": {
     "auth0-js": "^8.10.1",
     "autoprefixer": "7.1.2",
-    "aws-sdk": "^2.122.0",
+    "aws-sdk": "^2.814.0",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
