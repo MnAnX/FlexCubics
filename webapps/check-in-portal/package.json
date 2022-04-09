@@ -32,7 +32,7 @@
     "html2canvas-render-offscreen": "0.0.3",
     "localforage": "^1.5.0",
     "lodash": "^4.17.4",
-    "moment": "^2.22.0",
+    "moment": "^2.29.2",
     "object-assign": "4.1.1",
     "offline-plugin": "^4.9.0",
     "postcss-flexbugs-fixes": "3.2.0",
